@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.amcharts.com	TRUE	/	FALSE	1999999999	__cfduid	d867e60cc16fc43ff207b76fdaa5df50a1612510817
+www.amcharts.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+junoon.me	TRUE	/	FALSE	1999999999	_icl_current_language	hi
+

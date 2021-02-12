@@ -1,0 +1,231 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.d-text-blue {
+    color: #4c4cc5;
+}
+.d-text-green {
+    color: #23b986;
+}
+.d-text-red {
+    color: #ef5350;
+}
+.d-text-yellow {
+    color: #ffbe3b;
+}
+.banner{
+  background: #254177 url(../images/dashboard-banner.png) no-repeat left top;
+
+}
+.banner .info2 p {
+    max-width: 120px;
+}
+.category-filter {
+    background: #eef6ff;
+}
+.category-filter .filter a {
+    display: block;
+    margin-bottom: 20px;
+  padding: 10px 20px;
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid #0d3e85;
+  color: #0d3e85;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.category-filter .filter a:hover {
+    background: #0e79ee;
+    color: #fff;
+    text-decoration: none;
+}
+.category-filter .filter.active a:before {
+    content: "\e906";
+    color: #fff;
+    font-family: 'dashboard';
+    font-size: 7px;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgb(255 255 255 / .1);
+    margin-right: 10px;
+}
+.category-filter .filter.active a, 
+.category-filter .filter.active a:hover,
+.category-filter .filter.active a:focus {
+    background: #0e79ee;
+    color: #fff;
+    text-decoration: none;
+}
+.category-filter .tab-heading i {
+    display: inline-flex;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    background: #f9e251;
+    border-radius: 50%;
+    font-size: 35px;
+    vertical-align: middle;
+}
+
+.category-filter .tab-heading i:before {
+    color: #000;
+}
+.category-filter .tab-heading span {
+    vertical-align: middle;
+}
+.category-filter .salary-chart {
+  width   : 100%;
+  height  : 400px;
+  font-size : 11px;
+}
+.salary-chart-box {
+    padding: 30px 70px;
+}
+.category-filter .amchart-div{
+  width: 100%;
+    height: 250px;
+}
+.category-filter .amchart-div a,
+.category-filter .salary-chart a {
+    display: none !important;
+}
+.category-filter .range-slider{
+  width:19%; 
+}
+.category-filter .range-slider.vlow .irs-bar{
+  background-color: #dc4e4b; 
+}
+.category-filter .range-slider.low .irs-bar{
+  background-color: #e87b32; 
+}
+.category-filter .range-slider.mid .irs-bar{
+  background-color: #f8d111; 
+}
+.category-filter .range-slider.high .irs-bar{
+  background-color: #279a68; 
+}
+
+.category-filter .irs-min, 
+.category-filter .irs-max,
+.category-filter .irs-single,
+.category-filter .irs-from,
+.category-filter .irs-to {
+    visibility: hidden !important;
+    height: 0;
+    width: 0;
+}
+
+.category-filter .irs-handle {
+    display: none;
+}
+.category-filter .badges li span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.category-filter .badges li.vlow span {
+    background: #ff3333;
+}
+
+.category-filter .badges li.low span {
+    background: #ffad33;
+}
+
+.category-filter .badges li.medium span {
+    background: #f8d111;
+}
+
+.category-filter .badges li.high span {
+    background: #33ac73;
+}
+.category-filter .range-slider .progress {
+    height: 10px;
+    margin-bottom: 15px;
+}
+.category-filter .affix {
+  width: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 1;
+    box-shadow: 0 3px 6px 0 #00000038;
+}
+.category-filter .affix ul {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 10px 10px 0;
+}
+.category-filter .affix ul {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 70px 10px 0;
+}
+
+.category-filter .affix .filter a {
+    padding: 5px 10px;
+    height: 32px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.category-filter .affix .filter {
+    margin-right: 5px;
+}
+.category-filter .amchart-div.cost-index {
+    height: 306px;
+}
+@media only screen and (max-width:1100px){
+  .msite-scoller {
+      overflow-x: scroll;
+      overflow-y: hidden;
+  } 
+  .category-filter .filter {
+      white-space: nowrap;
+  }
+  .category-filter .affix .filters {
+      width: 350%;
+  }
+}
+
+@media only screen and (max-width:991px){
+  .banner .info2>div {
+      margin-bottom: 20px;
+  }
+
+  .banner {
+      padding: 30px 0;
+      background-size: 100% 100%;
+  }
+}
+@media only screen and (max-width:767px){
+  .info1, .info1>div {
+      text-align: center;
+  }
+  .category-filter .range-slider {
+      width: 49%;
+  }
+  .salary-chart-box {
+      padding: 15px;
+  }
+  .category-filter h3 {
+      font-size: 18px;
+  }
+  .category-filter .tab-heading i {
+      width: 50px;
+      height: 50px;
+      font-size: 25px;
+  }
+  .category-filter .tab-heading span {
+      font-size: 22px;
+  }
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>वेयरहाउसिंग &#8211; junoon</title>
+	<atom:link href="https://junoon.me/hi/training/warehousing-hi/feed" rel="self" type="application/rss+xml" />
+	<link>https://junoon.me/hi</link>
+	<description></description>
+	<lastBuildDate>Thu, 04 Feb 2021 05:57:47 +0000</lastBuildDate>
+	<language>hi-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.16</generator>
+	<item>
+		<title>चेकलिस्ट और बेस्ट प्रैक्टिस</title>
+		<link>https://junoon.me/hi/warehousing-checklist-best-practices</link>
+		<pubDate>Fri, 23 Oct 2020 05:54:10 +0000</pubDate>
+		<dc:creator><![CDATA[iadmin]]></dc:creator>
+				<category><![CDATA[वेयरहाउसिंग]]></category>
+
+		<guid isPermaLink="false">https://junoon.me/hi/checklist-best-practices-8/</guid>
+		<description><![CDATA[]]></description>
+		</item>
+		<item>
+		<title>क्या करें और क्या नहीं</title>
+		<link>https://junoon.me/hi/training/warehousing/dos-and-donts</link>
+		<pubDate>Fri, 23 Oct 2020 05:52:54 +0000</pubDate>
+		<dc:creator><![CDATA[iadmin]]></dc:creator>
+				<category><![CDATA[वेयरहाउसिंग]]></category>
+
+		<guid isPermaLink="false">https://junoon.me/hi/dos-and-donts-13/</guid>
+		<description><![CDATA[]]></description>
+		</item>
+		<item>
+		<title>उपकरण और प्रौद्योगिकी</title>
+		<link>https://junoon.me/hi/training/warehousing/tools-technologies</link>
+		<pubDate>Fri, 23 Oct 2020 05:51:28 +0000</pubDate>
+		<dc:creator><![CDATA[iadmin]]></dc:creator>
+				<category><![CDATA[वेयरहाउसिंग]]></category>
+
+		<guid isPermaLink="false">https://junoon.me/hi/tools-technologies-14/</guid>
+		<description><![CDATA[]]></description>
+		</item>
+		<item>
+		<title>एसओपी</title>
+		<link>https://junoon.me/hi/training/warehousing/sops</link>
+		<pubDate>Tue, 20 Oct 2020 22:22:37 +0000</pubDate>
+		<dc:creator><![CDATA[iadmin]]></dc:creator>
+				<category><![CDATA[वेयरहाउसिंग]]></category>
+
+		<guid isPermaLink="false">https://junoon.me/hi/sops-2/</guid>
+		<description><![CDATA[]]></description>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'junoon';
+  src:  url('fonts/junoon9681.eot?gmj5jh');
+  src:  url('fonts/junoon9681.eot?gmj5jh#iefix') format('embedded-opentype'),
+    url('fonts/junoon9681.ttf?gmj5jh') format('truetype'),
+    url('fonts/junoon9681.woff?gmj5jh') format('woff'),
+    url('fonts/junoon9681.svg?gmj5jh#junoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'junoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-job:before {
+  content: "\e90c";
+  color: #0054b0;
+}
+.icon-package:before {
+  content: "\e90d";
+  color: #0054b0;
+}
+.icon-profile:before {
+  content: "\e90e";
+  color: #f2670a;
+}
+.icon-resume:before {
+  content: "\e90f";
+  color: #0054b0;
+}
+.icon-share-jobs:before {
+  content: "\e910";
+  color: #f2670a;
+}
+.icon-add-user:before {
+  content: "\e911";
+  color: #0054b0;
+}
+.icon-analytics:before {
+  content: "\e912";
+  color: #0054b0;
+}
+.icon-background-check:before {
+  content: "\e913";
+  color: #f2670a;
+}
+.icon-candidate:before {
+  content: "\e914";
+  color: #f2670a;
+}
+.icon-certificate:before {
+  content: "\e915";
+  color: #f2670a;
+}
+.icon-curriculum-vitae:before {
+  content: "\e916";
+  color: #f2670a;
+}
+.icon-customer-service:before {
+  content: "\e917";
+  color: #f2670a;
+}
+.icon-education:before {
+  content: "\e918";
+  color: #f2670a;
+}
+.icon-open-book:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-arrow-b:before {
+  content: "\e90a";
+}
+.icon-logo:before {
+  content: "\e900";
+}
+.icon-youtube:before {
+  content: "\e901";
+  color: #1f71cf;
+}
+.icon-user:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e903";
+  color: #1f71cf;
+}
+.icon-search:before {
+  content: "\e904";
+}
+.icon-right-quotes:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-left-quotes:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-instagram:before {
+  content: "\e907";
+  color: #1f71cf;
+}
+.icon-facebook-3:before {
+  content: "\e908";
+  color: #1f71cf;
+}
+.icon-arrow:before {
+  content: "\e909";
+  color: #3ba5e0;
+}
