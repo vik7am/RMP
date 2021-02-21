@@ -1,0 +1,21 @@
+HTTrack3.49-2 launched on Fri, 19 Feb 2021 13:13:55 at https://demo.graygrids.com/themes/jobgrids/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://demo.graygrids.com/themes/jobgrids/ -O "/home/vikrant/websites/jp2" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:15:51	Error: 	"Not Found" (404) at link https://demo.graygrids.com/themes/jobgrids/news-standard.html (from https://demo.graygrids.com/themes/jobgrids/job-list.html)
+13:15:51	Error: 	"Not Found" (404) at link https://demo.graygrids.com/themes/jobgrids/terms-conditions.html (from https://demo.graygrids.com/themes/jobgrids/post-job.html)
+13:15:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js
+13:16:10	Warning: 	HTML file (1222 bytes) retransferred due to lack of cache: https://demo.graygrids.com/themes/jobgrids/news-standard.html
+13:16:11	Warning: 	Retry after error -4 (Interrupted transfer) at link https://demo.graygrids.com/themes/jobgrids/news-standard.html (from https://demo.graygrids.com/themes/jobgrids/job-list.html)
+13:16:11	Warning: 	HTML file (1222 bytes) retransferred due to lack of cache: https://demo.graygrids.com/themes/jobgrids/news-standard.html
+13:16:11	Error: 	"Not Found" (404) at link https://demo.graygrids.com/themes/jobgrids/popper.js (from https://demo.graygrids.com/themes/jobgrids/assets/js/bootstrap.min.js)
+13:16:12	Warning: 	Retry after error -4 (Interrupted transfer) at link https://demo.graygrids.com/themes/jobgrids/news-standard.html (from https://demo.graygrids.com/themes/jobgrids/job-list.html)
+13:16:12	Warning: 	HTML file (1222 bytes) retransferred due to lack of cache: https://demo.graygrids.com/themes/jobgrids/news-standard.html
+13:16:13	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://demo.graygrids.com/themes/jobgrids/news-standard.html (from https://demo.graygrids.com/themes/jobgrids/job-list.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 18 seconds : 130 links scanned, 151 files written (12779260 bytes overall) [7387146 bytes received at 53530 bytes/sec], 3077303 bytes transferred using HTTP compression in 58 files, ratio 43%, 4.5 requests per connection
+(4 errors, 6 warnings, 0 messages)
